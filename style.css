@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  
+  position: sticky;
+  top: 0;
+}
+
+.logo-docplanner {
+  width: 300px;
+  height: 30px;
+  margin-right: 650px;
+}
+.inner-nav {
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.links a {
+  color: cornflowerblue;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #ababab;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  color: #00b39b;
+  text-align: center;
+  font-family: "Work Sans", Arial, sans-serif;
+}
+
+.parag {
+  display: flex;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 80%;
+  font-family: "Roboto", Arial, sans-serif;
+  color: #747474;
+}
+.parag p {
+  width: 40%;
+  line-height: 1.75;
+}
+
+::selection {
+  background: #00b39b;
+  color: #fff;
+  text-shadow: none;
+}
+
+#aboutus {
+  color: #00b39b;
+}
+.links a:hover {
+  color: #00b39b;
+}
+
+.main {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.patients {
+  width: 460px;
+  height: 360px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #00ccb1;
+  border-radius: 10px;
+  padding: 2em 2em 0;
+  overflow: hidden;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.2s ease 0s;
+}
+
+.doctors {
+  width: 460px;
+  height: 360px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #3d83df;
+  border-radius: 10px;
+  padding: 2em 2em 0;
+  overflow: hidden;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.2s ease 0s;
+}
+
+.clinics {
+  width: 460px;
+  height: 360px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #1b2734;
+  border-radius: 10px;
+  padding: 2em 2em 0;
+  overflow: hidden;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.2s ease 0s;
+}
+
+h2,
+h3 {
+  color: white;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+}
+h3 {
+  text-transform: capitalize;
+  font-size: 30px;
+}
+
+.style-select select {
+  margin-bottom: 100px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  outline: 0;
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  font-size: 1.2rem;
+  text-align: center;
+}
+#arrow:hover {
+  cursor: pointer;
+}
+
+.style-select1 select {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  outline: 0;
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.style-select2 select {
+  margin-bottom: 35px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  outline: 0;
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.main:hover {
+  opacity: 0.9;
+}
+
+.brands {
+  transition: all 0.2s ease 0s;
+  filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%)
+    contrast(0);
+  -webkit-filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg)
+    brightness(300%) contrast(0);
+  opacity: 0.55;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+}
+.brands_section {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+}
+
+h4 {
+  color: #00b39b;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 25px;
+  line-height: 1.2;
+}
+
+.brands li {
+  list-style: none;
+}
+
+.logox {
+  padding: 20px;
+}
+.brands:hover {
+  transition: none;
+  filter: none;
+  -webkit-filter: none;
+  opacity: none;
+  cursor: pointer;
+}
+
+.part_parag {
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.75;
+}
+.part_parag h1 {
+  font-size: 30px;
+}
+
+.stone {
+  background: #e5faf8;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+}
+
+.flag,
+.patient,
+.visits,
+.doctor {
+  width: 250px;
+  height: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2em 2em 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+h5 {
+  color: #747474;
+  text-align: justify;
+  
+}
+h6 {font-size: 20px;
+  color: #00b39b;
+  text-align: center;}
+
+  #projects {
+    background-color: #99c5d2;
+  }
+  
+  #nav-projects {
+    background-color: #607993;
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+  
+  .project {
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    border-radius: 15px;
+    
+  }
+  
+  #projects h1 {
+    font-family: Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    padding-top: 10px;
+    font-size: 35px;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    
+  }
+  
+
+  
+  
+  
+  .project p {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+  }
+  
+    
+  .project a {
+    text-decoration: none;
+    color: blue
+    border: solid white 0.5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 6px;
+  }
+  
+  
